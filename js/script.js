@@ -20,7 +20,7 @@ $(document).ready(function() {
  	 $("p").hide(2000).show(2000);
  	});
  	
- 		//fadeIn and fadoeOut on paragraphs when either button is clicked
+ 		//*fadeIn and fadoeOut on paragraphs when either button is clicked*/
  	$("button").click(function(){
  	 $("p").fadeIn().fadeOut();
  	});
