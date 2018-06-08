@@ -9,4 +9,9 @@ $(document).ready(function() {
  	 $("button").removeClass("makeBorder").addClass("makeRed");
 
  	});
+ 	
+ 	//toggles paragraphs when either button is clicked
+ 	$("button").click(function(){
+ 	 $("p").slideToggle(2000);
+ 	});
 });
